@@ -23,3 +23,93 @@ Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\
   Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
 Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
 [Adaptive Build] Excluded from TerminalGraph unity file: STerminalGraphKnotNode.cpp, STerminalGraphNode.cpp, STerminalGraphPin.cpp, TerminalGraph.cpp, TerminalGraphConnectionDrawingPolicy.cpp, TerminalGraphNodeFactory.cpp, TerminalGraphStyle.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 13 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 21.62 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/13] Compile Resource [x64] Default.rc2
+[2/13] Compile [x64] SharedPCH.UnrealEd.Cpp20.cpp
+[3/13] Compile [x64] Module.TerminalGraph.cpp
+[4/13] Compile [x64] TerminalGraph.cpp
+[5/13] Compile [x64] TerminalGraphStyle.cpp
+[6/13] Compile [x64] TerminalGraphNodeFactory.cpp
+[7/13] Compile [x64] TerminalGraphConnectionDrawingPolicy.cpp
+[8/13] Compile [x64] STerminalGraphKnotNode.cpp
+[9/13] Compile [x64] STerminalGraphNode.cpp
+[10/13] Compile [x64] STerminalGraphPin.cpp
+[11/13] Link [x64] UnrealEditor-TerminalGraph.lib
+[12/13] Link [x64] UnrealEditor-TerminalGraph.dll
+[13/13] WriteMetadata UnrealEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 41.13 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 49.64 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 11.6kb
+Took 50,08s to run dotnet.exe, ExitCode=0
+Building plugin for target platforms: Win64
+Reading filter rules from B:\Projects\TerminalGraphDemo\Builds\TerminalGraph\HostProject\Plugins\TerminalGraph\Config\FilterPlugin.ini
+Loading FilterPluginWin64.ini
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 0m 50s
+AutomationTool exiting with ExitCode=0 (Success)
+Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildPlugin -Plugin="B:\Projects\TerminalGraphDemo\Plugins\TerminalGraph\TerminalGraph.uplugin  " -Package=B:\Projects\TerminalGraphDemo\Builds\TerminalGraph -Rocket -2019
+Initializing script modules...
+Total script module initialization time: 0.18 s.
+Using B:\VisualStudio\Community\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Copying 166 file(s) using max 64 thread(s)
+Reading plugin from B:\Projects\TerminalGraphDemo\Builds\TerminalGraph\HostProject\Plugins\TerminalGraph\TerminalGraph.uplugin...
+Building plugin for host platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealEditor Win64 Development -Project="B:\Projects\TerminalGraphDemo\Builds\TerminalGraph\HostProject\HostProject.uproject" -plugin="B:\Projects\TerminalGraphDemo\Builds\TerminalGraph\HostProject\Plugins\TerminalGraph\TerminalGraph.uplugin" -noubtmakefiles -manifest="B:\Projects\TerminalGraphDemo\Builds\TerminalGraph\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealEditor (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\TerminalGraphDemo\Builds\TerminalGraph\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml
+Building UnrealEditor...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from TerminalGraph unity file: STerminalGraphKnotNode.cpp, STerminalGraphNode.cpp, STerminalGraphPin.cpp, TerminalGraph.cpp, TerminalGraphConnectionDrawingPolicy.cpp, TerminalGraphNodeFactory.cpp, TerminalGraphStyle.cpp, TerminalGraphRoutingTests.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 14 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 17.95 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/14] Compile Resource [x64] Default.rc2
+[2/14] Compile [x64] SharedPCH.UnrealEd.Cpp20.cpp
+[3/14] Compile [x64] Module.TerminalGraph.cpp
+[4/14] Compile [x64] TerminalGraph.cpp
+[5/14] Compile [x64] TerminalGraphNodeFactory.cpp
+[6/14] Compile [x64] TerminalGraphConnectionDrawingPolicy.cpp
+[7/14] Compile [x64] TerminalGraphRoutingTests.cpp
+[8/14] Compile [x64] STerminalGraphKnotNode.cpp
+[9/14] Compile [x64] STerminalGraphNode.cpp
+[10/14] Compile [x64] TerminalGraphStyle.cpp
+[11/14] Compile [x64] STerminalGraphPin.cpp
+[12/14] Link [x64] UnrealEditor-TerminalGraph.lib
+[13/14] Link [x64] UnrealEditor-TerminalGraph.dll
+[14/14] WriteMetadata UnrealEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 40.96 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 66.24 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 13.8kb
+Took 66,65s to run dotnet.exe, ExitCode=0
+Building plugin for target platforms: Win64
+Reading filter rules from B:\Projects\TerminalGraphDemo\Builds\TerminalGraph\HostProject\Plugins\TerminalGraph\Config\FilterPlugin.ini
+Loading FilterPluginWin64.ini
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 1m 7s
+AutomationTool exiting with ExitCode=0 (Success)
